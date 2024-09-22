@@ -1,0 +1,4 @@
+com/catalogofilmes/catalogo_filmes/repository/FilmeRepository.class
+com/catalogofilmes/catalogo_filmes/model/Filme.class
+com/catalogofilmes/catalogo_filmes/controller/FilmeController.class
+com/catalogofilmes/catalogo_filmes/CatalogoFilmesApplication.class
