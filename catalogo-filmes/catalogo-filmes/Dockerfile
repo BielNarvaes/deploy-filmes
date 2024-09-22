@@ -5,7 +5,7 @@ FROM openjdk:17-jdk-slim
 WORKDIR /app
 
 # Copiar o JAR gerado para dentro do container
-COPY catalogo-filmes-0.0.1-SNAPSHOT.jar app.jar
+COPY target/catalogo-filmes-0.0.1-SNAPSHOT.jar app.jar
 
 # Expor a porta 25000 (a porta que o Spring Boot irá rodar)
 EXPOSE 25000
